@@ -9,6 +9,7 @@ public class SimpleTask extends Task {
     public String getTitle() {
         return title;
     }
+
     public boolean matches(String query) {
         if (title.contains(query)) {
             return true;

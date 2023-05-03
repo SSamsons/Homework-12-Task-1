@@ -21,8 +21,8 @@ public class Todos {
 
     public Task[] search(String query) {
         Task[] result = new Task[0];
-        for(Task task : tasks) {
-            if(task.matches(query)) {
+        for (Task task : tasks) {
+            if (task.matches(query)) {
                 result = addToArray(result, task);
             }
         }
